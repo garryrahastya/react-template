@@ -1,0 +1,116 @@
+.price-container h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 5%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Pricing Card Styles */
+.pricing-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    margin: 0 20px;
+    /* max-width: 300px; */
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    transform: translateY(-10px);
+}
+
+.pricing-header {
+    background-color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pricing-header h2 {
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.pricing-header h3 {
+    color: #000000;
+    font-size: 24px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+.pricing-header span {
+    color: #6d6d6d;
+    font-size: 16px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.pricing-body {
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+
+.pricing-body ul {
+    list-style: circle;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.pricing-body li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.pricing-footer {
+    margin-top: 20px;
+}
+
+.pricing-card hr {
+   margin: 10px 0;
+   width: 100%;
+   background-color: #ddd;
+   border: none;
+   height: 1px;
+  }
+
+.btn {
+    background-color: #ea1e1e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 70px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #c11a1a;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .pricing-card {
+        margin: 20px;
+        max-width: none;
+        width: 100%;
+    }
+}
